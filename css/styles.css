@@ -55,6 +55,8 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+.head-logo {
   margin-inline: 215px 93px;
   margin-block: 24px 25px;
 }
@@ -140,12 +142,35 @@ p {
 .general-list-item-spacing-b {
   padding-right: 30px;
 }
+.what-we-do-list {
+  margin-inline: 215px;
+  margin-bottom: 94px;
+}
+.what-we-do-images-spacing {
+  padding-inline: 30px;
+}
+.title-a {
+  padding-bottom: 50px;
+}
 .title {
   color: var(--colorE);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+.title-b {
+  padding-block: 94px 50px;
+}
+.team-photo-list {
+  padding-inline: 215px;
+  padding-bottom: 93px;
+}
+.team-photo-spacing-a {
+  margin-inline: 30px;
+}
+.team-photo-spacing-b {
+  margin-right: 30px;
 }
 .background-b {
   background-color: var(--colorF);
@@ -162,26 +187,44 @@ p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  padding-block: 30px 10px;
+  margin: 0px;
 }
 .team-photo-description {
   color: var(--colorC);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  padding-bottom: 30px;
 }
 .background-c {
   background-color: #2f303a;
 }
-.portfolio-contacts-title {
+.foot-logo {
+  margin-left: 215px;
+}
+.foot-contacts-title {
   color: var(--colorA);
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
 }
-.portfolio-contacts {
+.foot-contacts {
   color: var(--colorA);
   font-size: 14px;
   line-height: 1.7;
+}
+.foot-direction {
+  padding-block: 20px 60px;
+  padding-left: 215px;
+  display: flex;
+  flex-direction: column;
+}
+.foot-contacts-spacing {
+  margin-block: 9px;
+}
+.foot-head {
+  padding-top: 60px;
 }
 .portfolio-background {
   background-color: var(--colorA);
