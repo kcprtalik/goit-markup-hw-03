@@ -12,6 +12,8 @@
   --colorE: #212121;
   --colorF: #f5f4fa;
   --colorG: #ececec;
+  --colorH: #2f303a;
+  --colorI: #eeeeee;
 }
 body {
   background-color: var(--colorA);
@@ -94,7 +96,7 @@ p {
   margin-block: 32px;
 }
 .background-a {
-  background-color: #2f303a;
+  background-color: var(--colorH);
 }
 .slogan {
   color: var(--colorA);
@@ -226,8 +228,19 @@ p {
 .foot-head {
   padding-top: 60px;
 }
+.portfolio-general {
+  margin-block: 94px;
+  margin-inline: 215px;
+}
 .portfolio-background {
   background-color: var(--colorA);
+}
+.portfolio-btn-list {
+  margin-inline: 510px 518px;
+  margin-bottom: 34px;
+}
+.portfolio-photo-list {
+  flex-wrap: wrap;
 }
 .portfolio-btn {
   background-color: var(--colorF);
@@ -236,11 +249,17 @@ p {
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
-  color: #212121;
+  color: var(--colorE);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   font-family: inherit;
+}
+.portfolio-btn-spacing-a {
+  margin-inline: 8px;
+}
+.portfolio-btn-spacing-b {
+  margin-inline: 8px;
 }
 .portfolio-btn:hover {
   background-color: var(--colorB);
@@ -258,4 +277,19 @@ p {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+.portfolio-photo-title {
+  color: var(--colorE);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin-block: 20px 4px;
+}
+.portfolio-photo-description {
+  color: var(--colorC);
+  font-size: 16px;
+  line-height: 1.87;
+}
+.portfolio-photo-item {
+  margin: 30px;
 }
