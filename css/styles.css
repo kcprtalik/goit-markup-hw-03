@@ -1,8 +1,21 @@
-.container {
-  width: 1600px;
+.padding-block {
 }
-.flex-element {
-  display: flex;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 :root {
   --colorA: #ffffff;
@@ -11,33 +24,10 @@
   --colorD: #000000;
   --colorE: #212121;
   --colorF: #f5f4fa;
-  --colorG: #ececec;
-  --colorH: #2f303a;
-  --colorI: #eeeeee;
 }
 body {
   background-color: var(--colorA);
   font-family: Roboto;
-}
-h1 {
-  margin: 0px;
-  padding: 0px;
-}
-h3 {
-  margin: 0px;
-  padding: 0px;
-}
-h2 {
-  margin: 0px;
-  padding: 0px;
-}
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-p {
-  margin: 0px;
-  padding: 0px;
 }
 .link {
   text-decoration: none;
@@ -57,9 +47,7 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
-.head-logo {
-  margin-inline: 215px 93px;
+  margin-left: 215px;
   margin-block: 24px 25px;
 }
 .logo-web {
@@ -68,35 +56,20 @@ p {
 .list {
   list-style: none;
 }
-.mini-border {
-  border-bottom: 1px solid;
-  color: var(--colorG);
-}
-.wayfinding-list {
-  padding: 0px;
-  margin-block: 32px;
-}
-.wayfinding-list-item-b {
-  margin-inline: 46px;
-}
 .wayfinding-list-item {
   color: var(--colorE);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
-.contacts-a {
-  margin-inline: 371px 50px;
-}
 .contacts {
   color: var(--colorC);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  margin-block: 32px;
 }
 .background-a {
-  background-color: var(--colorH);
+  background-color: #2f303a;
 }
 .slogan {
   color: var(--colorA);
@@ -104,8 +77,6 @@ p {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  margin-inline: 452px;
-  padding-top: 200px;
 }
 .slogan-btn {
   background-color: var(--colorB);
@@ -119,40 +90,17 @@ p {
   font-family: inherit;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-inline: 700px;
-  margin-block: 30px 200px;
-}
-.general-list {
-  margin-block: 94px;
-  margin-inline: 215px;
 }
 .general-list-title {
   color: var(--colorE);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  padding-bottom: 10px;
 }
 .general-list-description {
   color: var(--colorC);
   font-size: 14px;
   line-height: 1.5;
-}
-.general-list-item-spacing-a {
-  padding-inline: 30px;
-}
-.general-list-item-spacing-b {
-  padding-right: 30px;
-}
-.what-we-do-list {
-  margin-inline: 215px;
-  margin-bottom: 94px;
-}
-.what-we-do-images-spacing {
-  padding-inline: 30px;
-}
-.title-a {
-  padding-bottom: 50px;
 }
 .title {
   color: var(--colorE);
@@ -160,19 +108,6 @@ p {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
-.title-b {
-  padding-block: 94px 50px;
-}
-.team-photo-list {
-  padding-inline: 215px;
-  padding-bottom: 93px;
-}
-.team-photo-spacing-a {
-  margin-inline: 30px;
-}
-.team-photo-spacing-b {
-  margin-right: 30px;
 }
 .background-b {
   background-color: var(--colorF);
@@ -189,58 +124,29 @@ p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-block: 30px 10px;
-  margin: 0px;
 }
 .team-photo-description {
   color: var(--colorC);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-bottom: 30px;
 }
 .background-c {
   background-color: #2f303a;
 }
-.foot-logo {
-  margin-left: 215px;
-}
-.foot-contacts-title {
+.portfolio-contacts-title {
   color: var(--colorA);
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
 }
-.foot-contacts {
+.portfolio-contacts {
   color: var(--colorA);
   font-size: 14px;
   line-height: 1.7;
 }
-.foot-direction {
-  padding-block: 20px 60px;
-  padding-left: 215px;
-  display: flex;
-  flex-direction: column;
-}
-.foot-contacts-spacing {
-  margin-block: 9px;
-}
-.foot-head {
-  padding-top: 60px;
-}
-.portfolio-general {
-  margin-block: 94px;
-  margin-inline: 215px;
-}
 .portfolio-background {
   background-color: var(--colorA);
-}
-.portfolio-btn-list {
-  margin-inline: 510px 518px;
-  margin-bottom: 34px;
-}
-.portfolio-photo-list {
-  flex-wrap: wrap;
 }
 .portfolio-btn {
   background-color: var(--colorF);
@@ -249,17 +155,11 @@ p {
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
-  color: var(--colorE);
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   font-family: inherit;
-}
-.portfolio-btn-spacing-a {
-  margin-inline: 8px;
-}
-.portfolio-btn-spacing-b {
-  margin-inline: 8px;
 }
 .portfolio-btn:hover {
   background-color: var(--colorB);
@@ -278,18 +178,25 @@ p {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.portfolio-photo-title {
-  color: var(--colorE);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  margin-block: 20px 4px;
+.flex-top {
+  display: flex;
 }
-.portfolio-photo-description {
-  color: var(--colorC);
-  font-size: 16px;
-  line-height: 1.87;
+.list-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 46px;
+  margin-left: 93px;
+  margin-block: 32px;
+  width: 254px;
 }
-.portfolio-photo-item {
-  margin: 30px;
+.contacts-top {
+  display: flex;
+  margin-right: 227px;
+  gap: 50px;
+  margin-block: 32px;
+  margin-left: 371px;
+}
+.list-middle {
+  display: flex;
 }
