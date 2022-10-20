@@ -178,25 +178,4 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.flex-top {
-  display: flex;
-}
-.list-top {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 46px;
-  margin-left: 93px;
-  margin-block: 32px;
-  width: 254px;
-}
-.contacts-top {
-  display: flex;
-  margin-right: 227px;
-  gap: 50px;
-  margin-block: 32px;
-  margin-left: 371px;
-}
-.list-middle {
-  display: flex;
-}
+
