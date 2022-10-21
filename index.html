@@ -15,12 +15,12 @@
   <body>
     <header>
       <section>
-        <div class="container">
-          <a class="link-logo logo" href="#"
+        <div class="container flex-top">
+          <a class="link-logo logo logo-top" href="#"
             ><span class="logo-web">Web</span>Studio</a
           >
           <nav>
-            <ul class="list">
+            <ul class="list list-top">
               <li>
                 <a class="link wayfinding-list-item" href="./index.html"
                   >Agencja</a
@@ -34,7 +34,7 @@
               <li><a class="link wayfinding-list-item" href="#">Kontakt</a></li>
             </ul>
           </nav>
-          <ul class="list">
+          <ul class="list contacts-top">
             <li>
               <a class="link contacts" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -53,14 +53,18 @@
       <section>
         <div class="container">
           <div class="background-a">
-            <h1 class="slogan">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button class="slogan-btn" type="button">Zamów usługe</button>
+            <div class="slogan-wrapper">
+              <h1 class="slogan">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            </div>
+            <div class="btn-align">
+              <button class="slogan-btn" type="button">Zamów usługe</button>
+            </div>
           </div>
         </div>
       </section>
       <section>
         <div class="container">
-          <ul class="list">
+          <ul class="list list-middle">
             <li>
               <h3 class="general-list-title">LOREM IPSUM</h3>
               <p class="general-list-description">
@@ -94,8 +98,8 @@
       </section>
       <section>
         <div class="container">
-          <h2 class="title">Czym się zajmujemy</h2>
-          <ul class="list">
+          <h2 class="title title-middle-one">Czym się zajmujemy</h2>
+          <ul class="list list-image-middle-one">
             <li>
               <img
                 height="294"
@@ -119,16 +123,20 @@
             </li>
           </ul>
           <div class="background-b">
-            <h2 class="title">Nasz zespół</h2>
-            <ul class="list">
+            <h2 class="title title-middle-two">Nasz zespół</h2>
+            <ul class="list list-image-middle-two">
               <li class="team-photo">
                 <img
                   height="260"
                   width="270"
                   src="./images/photod.jpg"
                   alt="zdjęcie Johna Doe" />
-                <h5 class="team-photo-title">John Doe</h5>
-                <p class="team-photo-description">Product Designer</p>
+                <h5 class="team-photo-title team-photo-title-align">
+                  John Doe
+                </h5>
+                <p class="team-photo-description team-photo-description-align">
+                  Product Designer
+                </p>
               </li>
               <li class="team-photo">
                 <img
@@ -136,8 +144,12 @@
                   width="270"
                   src="./images/photoe.jpg"
                   alt="zdjęcie Johna Doe" />
-                <h5 class="team-photo-title">John Doe</h5>
-                <p class="team-photo-description">Frontend Developer</p>
+                <h5 class="team-photo-title team-photo-title-align">
+                  John Doe
+                </h5>
+                <p class="team-photo-description team-photo-description-align">
+                  Frontend Developer
+                </p>
               </li>
               <li class="team-photo">
                 <img
@@ -145,8 +157,12 @@
                   width="270"
                   src="./images/photof.jpg"
                   alt="zdjęcie Johna Doe" />
-                <h5 class="team-photo-title">John Doe</h5>
-                <p class="team-photo-description">Marketing</p>
+                <h5 class="team-photo-title team-photo-title-align">
+                  John Doe
+                </h5>
+                <p class="team-photo-description team-photo-description-align">
+                  Marketing
+                </p>
               </li>
               <li class="team-photo">
                 <img
@@ -154,8 +170,12 @@
                   width="270"
                   src="./images/photog.jpg"
                   alt="zdjęcie Johna Doe" />
-                <h5 class="team-photo-title">John Doe</h5>
-                <p class="team-photo-description">UI Designer</p>
+                <h5 class="team-photo-title team-photo-title-align">
+                  John Doe
+                </h5>
+                <p class="team-photo-description team-photo-description-align">
+                  UI Designer
+                </p>
               </li>
             </ul>
           </div>
@@ -164,20 +184,30 @@
     </main>
     <footer>
       <section>
-        <div class="background-c container">
+        <div class="background-c container container-bottom">
           <a class="link-logo logo" href="#"
             ><span class="logo-web">Web</span>Studio</a
           >
           <address>
-            <span class="portfolio-contacts-title"
-              >m.Warszawa, Aleje Jerozolimskie 21</span
-            >
-            <a class="link portfolio-contacts" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-            <a class="link portfolio-contacts" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
+            <div class="address-align">
+              <span class="portfolio-contacts-title"
+                >m.Warszawa, Aleje Jerozolimskie 21</span
+              >
+              <ul class="list">
+                <li>
+                  <a
+                    class="link portfolio-contacts"
+                    href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li>
+                  <a class="link portfolio-contacts" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </div>
           </address>
         </div>
       </section>
