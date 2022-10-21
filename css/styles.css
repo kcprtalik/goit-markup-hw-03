@@ -492,7 +492,7 @@ body {
 .list-image-middle-two {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .team-photo-title-align {
   padding-block: 30px 10px;
@@ -539,7 +539,4 @@ body {
 }
 .list-portfolio-middle-two li:nth-child(n) {
   border: 1px solid #eeeeee;
-}
-.section {
-  padding-inline: 94px;
 }
